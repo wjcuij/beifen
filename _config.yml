@@ -22,7 +22,7 @@ blog_button:
 
 # Navigation buttons in the front page.
 nav:
-    - {title: 动态效果网站, description: My Projects, url: 'www.baidu.com'}
+    - {title: 动态效果网站, description: My Projects, url: 'https://github.com/wjcuij/wjcuij.github.io/tree/master/html5'}
     - {title: 动态效果网站, description: My Projects, url: 'www.baidu.com'}
     - {title: 动态效果网站, description: My Projects, url: 'www.baidu.com'}
     # - {title: Another Button, description: A button, url: 'http://example.com'}
