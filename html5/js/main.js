@@ -1,4 +1,9 @@
+
 $(function(){
+	// $(window).scroll(function(){
+	// 		var scrollTop=document.body.scrollTop || document.documentElement.scrollTop;
+	// 		console.log(scrollTop)
+	// 	})
 	var i = 0;
 	var move = function(){
 		i<2 ? i++ : i=0;
@@ -59,15 +64,15 @@ $(function(){
 	})
 	$('header section li:nth-child(2)').click(function(){
 		$('body').stop(true);
-		$('body').scrollTo(1107,800);
+		$('body').scrollTo(1407,800);
 	})
 	$('header section li:nth-child(3)').click(function(){
 		$('body').stop(true);
-		$('body').scrollTo(2052,800);
+		$('body').scrollTo(2352,800);
 	})
 	$('header section li:nth-child(4)').click(function(){
 		$('body').stop(true);
-		$('body').scrollTo(3004,800);
+		$('body').scrollTo(3204,800);
 	})
 	$('header section li:nth-child(5)').click(function(){
 		$('body').stop(true);
