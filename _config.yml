@@ -2,7 +2,7 @@
 title: ScorpioHuang
 subtitle: 骏马面前无沟壑,怂人脚下全是坎。
 welcome_message: 欢迎来到我的个人网站！
-description: 嘿！我是ScorpioHuang，是一名小小的web前端开发，目前边提升边工作，致力于web前端的研究和应用,努力成为一名优秀的前端开发工程师。
+description: 嘿！我是ScorpioHuang，是一名小小的web前端开发，目前边提升能力边工作，致力于web前端的研究和应用,努力成为一名优秀的前端开发工程师。
 creator: <a href="http:www.hcuij.com">@hcj</a>
 
 url: "http://www.hcuij.com"
@@ -22,7 +22,7 @@ blog_button:
 
 # Navigation buttons in the front page.
 nav:
-    - {title: 动态效果网站, description: My Projects, url: 'www.hcjdemo.applinzi.com/html5'}
+    - {title: 动态效果网站, description: My Projects, url: './html5'}
     - {title: 小游戏, description: My Projects, url: './tanchishe'}
     # - {title: 动态效果网站, description: My Projects, url: 'www.baidu.com'}
     # - {title: Another Button, description: A button, url: 'http://example.com'}
