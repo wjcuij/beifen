@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		.showbox {
+	/*position: absolute;*/
+	/*margin: left;*/
+	margin-bottom: 20px;
+	margin-top:20px;
+}
+.foldbox{
+	margin-top:20px;
+
+	width:1200px;
+	overflow: hidden;
+	margin:0 auto;
+}
+.foldbox ul{
+	width:1200px;
+	height:260px;
+	margin:0 auto;
+	overflow: hidden;
+}
+.foldbox ul li{
+	float:left;
+	width:170px;
+	height:260px;
+	position: relative;
+	overflow: hidden;
+	cursor: pointer;
+	-webkit-transition:all .3s linear;
+
+}
+.foldbox ul li a .pic_word{
+	display: block;
+	position: absolute;
+	overflow: hidden;
+	width:100%;
+	height:100%;
+	left:0;
+	top:0;
+	/*background:rgba(0,0,0,.3);*/
+}
+
+.foldbox ul li a .pic_word h4{
+	color:#fff;
+	width:30px;
+	margin:0 auto;
+	display: block;
+	font:30px/30px Microsoft Yahei;
+	position: relative;
+	padding:30px 0 0 0;
+	z-index: 55;
+}
+.pic_show{
+	width:100%;
+	height:100%;
+}
+	</style>
+</head>
+<body>
+	
+	<div class="showbox">
+		<div class="foldbox">
+			<ul>
+				<li><a href="detail.html">
+					<div class="pic_word">
+						<h4>园林酒店</h4>
+					</div>
+					<div class="pic_show" style="background:url(./images/fold1.jpg)no-repeat center 0;"></div>
+				</a></li>
+				<li><a href="#">
+					<div class="pic_word">
+						<h4>情侣酒店</h4>
+					</div>
+					<div class="pic_show" style="background:url(./images/fold2.jpg)no-repeat center 0;"></div>
+				</a></li>
+				<li><a href="#">
+					<div class="pic_word">
+						<h4>设计师酒店</h4>
+					</div>
+					<div class="pic_show" style="background:url(./images/fold3.jpg)no-repeat center 0;"></div>
+				</a></li>
+				<!-- <li><a href="#">
+					<div class="pic_word">
+						<h4>青年旅馆</h4>
+					</div>
+					<div class="pic_show" style="background:url(./images/fold4.jpg)no-repeat center 0;"></div>
+				</a></li> -->
+				<!-- <li><a href="#">
+					<div class="pic_word">
+						<h4>特色客栈</h4>
+					</div>
+					<div class="pic_show" style="background:url(./images/fold5.jpg)no-repeat center 0;"></div>
+				</a></li>
+				<li><a href="#">
+					<div class="pic_word">
+						<h4>海岛酒店</h4>
+					</div>
+					<div class="pic_show" style="background:url(./images/fold6.jpg)no-repeat center 0;"></div>
+				</a></li>
+				<li><a href="#">
+					<div class="pic_word">
+						<h4>海外温泉</h4>
+					</div>
+					<div class="pic_show" style="background:url(./images/fold7.jpg)no-repeat center 0;"></div>
+				</a></li> -->
+			</ul>
+		</div>
+	</div>
+
+	<script>
+			$(function(){
+	$('.foldbox>ul>li').mouseover(function(){
+		$(this).css('width','402px')
+		.siblings().css('width','133px');
+		$(this).children().children().eq(0).children().css('display','none');
+	}).mouseout(function(){
+		$(this).children().children().eq(0).children().css('display','block');
+		$(this).css('width','170px')
+		.siblings().css('width','170px');
+	});
+});
+
+
+
+	</script>
+</body>
+</html>
